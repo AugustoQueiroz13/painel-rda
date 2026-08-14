@@ -1,0 +1,33 @@
+{
+  "_comentario": "Mapeia a FUNCAO (texto normalizado: maiusculo, sem acento) para a area de politica da acao 19.1. Classificacao pelo TEXTO da funcao, nao pelo codigo, porque os codigos vem preenchidos de forma inconsistente entre municipios. As 4 areas: saude, educacao, territorio, outras. Territorio confirmado com a gerencia: urbanismo + gestao ambiental + saneamento + transporte + habitacao + conservacao.",
+  "mapa": {
+    "EDUCACAO": "educacao",
+    "GESTAO DA POLITICA DE EDUCACAO": "educacao",
+
+    "SAUDE": "saude",
+
+    "URBANISMO": "territorio",
+    "GESTAO AMBIENTAL": "territorio",
+    "SANEAMENTO": "territorio",
+    "SANEAMENTO BASICO": "territorio",
+    "TRANSPORTE": "territorio",
+    "HABITACAO": "territorio",
+    "PRESERVACAO E CONSERVACAO": "territorio",
+    "CONTROLE AMBIENTAL": "territorio",
+
+    "ASSISTENCIA SOCIAL": "outras",
+    "ASSIST. SOCIAL": "outras",
+    "DIREITOS DA CIDADANIA": "outras",
+    "TRABALHO": "outras",
+    "ADMINISTRACAO": "outras",
+    "ADMINISTRACAO GERAL": "outras",
+    "CULTURA": "outras",
+    "COMERCIO E SERVICOS": "outras",
+    "COMERCIO E SERVICO": "outras",
+    "AGRICULTURA": "outras",
+    "SEGURANCA PUBLICA": "outras",
+    "DESPORTO E LAZER": "outras",
+    "LEGISLATIVA": "outras"
+  },
+  "area_default": "outras"
+}

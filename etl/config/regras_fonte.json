@@ -1,0 +1,33 @@
+{
+  "_comentario": "Regra de classificacao da FONTE DE RECURSOS em: petroleo, outros, nao_informado. Fechada com a gerencia (Alejandra). Uma fonte e PETROLEO se o texto normalizado (maiusculo, sem acento) contem qualquer termo da lista 'petroleo_termos' OU qualquer padrao de 'petroleo_truncados'. Vazio = nao_informado. Resto = outros. QESE (Quota Estadual do Salario-Educacao) NAO e petroleo, cai em outros por nao conter nenhum termo. IMPORTANTE: a lista final deve ser validada por especialista em orcamento publico antes de publicar (ver classificacao_fontes.csv).",
+
+  "petroleo_termos": [
+    "ROYALT",
+    "PARTICIPACAO ESPECIAL",
+    "PARTICIPACOES NA EXPLORACAO",
+    "COMPENSACAO FINANCEIRA",
+    "COMPENSAC.FINAN",
+    "COMPENSACOES FINANCEIRAS",
+    "PETROLEO",
+    "PRE-SAL",
+    "PRESAL",
+    "CESSAO ONEROSA",
+    "9478",
+    "7990",
+    "7.990",
+    "FUNDO ESPECIAL DO PETROLEO"
+  ],
+
+  "petroleo_truncados": [
+    "REFERENTE A RO",
+    "REF. ROYALT",
+    "DOS ROYALTEIS",
+    "REFERENTE A COMPENSAC",
+    "REFERENTE A RECU",
+    "REF. ROYALTIES"
+  ],
+
+  "_nota_minerais": "Compensacao financeira pela exploracao de recursos minerais entra como petroleo por decisao da gerencia: alguns portais nao subdividem o tipo de royalty (mineracao vs petroleo/gas), entao a origem vem agrupada e nao ha como separar. Essas linhas devem ser sinalizadas na validacao.",
+
+  "_nota_qese": "QESE = Quota Estadual do Salario-Educacao. Confirmado pela gerencia. Nao tem relacao com petroleo. Cai em 'outros'."
+}

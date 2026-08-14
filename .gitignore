@@ -1,0 +1,30 @@
+# Dependencias do Node (pesado, nao vai para o repositorio)
+node_modules/
+painel/node_modules/
+
+# Build do Vite
+painel/dist/
+dist/
+
+# Arquivos de ambiente e locais
+.env
+.env.local
+*.local
+
+# Cache e logs
+.vite/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+etl/saida/*.csv
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
