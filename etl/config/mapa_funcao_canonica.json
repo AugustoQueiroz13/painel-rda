@@ -1,0 +1,31 @@
+{
+  "_comentario": "Canonicalizacao de FUNCAO orcamentaria. Chave = funcao normalizada (maiuscula, sem acento, sem espaco extra). Valor = nome final exibido no painel. Unifica grafias duplicadas (ex: ASSIST. SOCIAL e ASSISTENCIA SOCIAL viram 'Assistência Social'). Funcao vazia vira 'Não informado'. NAO agrupa em areas: cada funcao aparece por si (decisao da gerencia: usar todas as funcoes).",
+  "mapa": {
+    "ADMINISTRACAO": "Administração",
+    "ADMINISTRACAO GERAL": "Administração",
+    "AGRICULTURA": "Agricultura",
+    "AGRICULTURA / 606": "Agricultura",
+    "ASSIST. SOCIAL": "Assistência Social",
+    "ASSISTENCIA SOCIAL": "Assistência Social",
+    "COMERCIO E SERVICO": "Comércio e Serviços",
+    "COMERCIO E SERVICOS": "Comércio e Serviços",
+    "CONTROLE AMBIENTAL": "Controle Ambiental",
+    "CULTURA": "Cultura",
+    "DESPORTO E LAZER": "Desporto e Lazer",
+    "DIREITOS DA CIDADANIA": "Direitos da Cidadania",
+    "EDUCACAO": "Educação",
+    "GESTAO AMBIENTAL": "Gestão Ambiental",
+    "GESTAO DA POLITICA DE EDUCACAO": "Educação",
+    "HABITACAO": "Habitação",
+    "LEGISLATIVA": "Legislativa",
+    "PRESERVACAO E CONSERVACAO": "Preservação e Conservação",
+    "SANEAMENTO": "Saneamento",
+    "SANEAMENTO BASICO": "Saneamento",
+    "SAUDE": "Saúde",
+    "SEGURANCA PUBLICA": "Segurança Pública",
+    "TRABALHO": "Trabalho",
+    "TRANSPORTE": "Transporte",
+    "URBANISMO": "Urbanismo"
+  },
+  "funcao_vazia": "Não informado"
+}

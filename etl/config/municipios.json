@@ -1,0 +1,31 @@
+{
+  "_comentario": "Lista canonica dos 26 municipios do Planeja+, com UF e regiao. Chave = nome normalizado (maiusculo, sem acento). Reutilizada da canonicalizacao do SMA. Municipios com 'tem_dado': false ainda nao possuem dados na planilha atual (serao preenchidos na coleta futura).",
+  "municipios": [
+    { "canonico": "ARARUAMA", "nome": "Araruama", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "ARMACAO DOS BUZIOS", "nome": "Armação dos Búzios", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "ARRAIAL DO CABO", "nome": "Arraial do Cabo", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "CABO FRIO", "nome": "Cabo Frio", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "CAMPOS DOS GOYTACAZES", "nome": "Campos dos Goytacazes", "uf": "RJ", "regiao": "II", "tem_dado": true },
+    { "canonico": "CARAPEBUS", "nome": "Carapebus", "uf": "RJ", "regiao": "II", "tem_dado": true },
+    { "canonico": "CASIMIRO DE ABREU", "nome": "Casimiro de Abreu", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "MACAE", "nome": "Macaé", "uf": "RJ", "regiao": "II", "tem_dado": true },
+    { "canonico": "QUISSAMA", "nome": "Quissamã", "uf": "RJ", "regiao": "II", "tem_dado": true },
+    { "canonico": "RIO DAS OSTRAS", "nome": "Rio das Ostras", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "SAQUAREMA", "nome": "Saquarema", "uf": "RJ", "regiao": "V", "tem_dado": true },
+    { "canonico": "SAO FRANCISCO DE ITABAPOANA", "nome": "São Francisco de Itabapoana", "uf": "RJ", "regiao": "II", "tem_dado": true },
+    { "canonico": "SAO JOAO DA BARRA", "nome": "São João da Barra", "uf": "RJ", "regiao": "II", "tem_dado": true },
+    { "canonico": "ITAPEMIRIM", "nome": "Itapemirim", "uf": "ES", "regiao": "I", "tem_dado": true },
+    { "canonico": "MARATAIZES", "nome": "Marataízes", "uf": "ES", "regiao": "I", "tem_dado": true },
+    { "canonico": "PIUMA", "nome": "Piúma", "uf": "ES", "regiao": "I", "tem_dado": true },
+    { "canonico": "PRESIDENTE KENNEDY", "nome": "Presidente Kennedy", "uf": "ES", "regiao": "I", "tem_dado": true },
+    { "canonico": "GUAPIMIRIM", "nome": "Guapimirim", "uf": "RJ", "regiao": "VI", "tem_dado": false },
+    { "canonico": "MARICA", "nome": "Maricá", "uf": "RJ", "regiao": "VI", "tem_dado": false },
+    { "canonico": "NITEROI", "nome": "Niterói", "uf": "RJ", "regiao": "VI", "tem_dado": false },
+    { "canonico": "PARATY", "nome": "Paraty", "uf": "RJ", "regiao": "VII", "tem_dado": false },
+    { "canonico": "CANANEIA", "nome": "Cananéia", "uf": "SP", "regiao": "VII", "tem_dado": false },
+    { "canonico": "IGUAPE", "nome": "Iguape", "uf": "SP", "regiao": "VII", "tem_dado": false },
+    { "canonico": "ILHA COMPRIDA", "nome": "Ilha Comprida", "uf": "SP", "regiao": "VII", "tem_dado": false },
+    { "canonico": "ILHABELA", "nome": "Ilhabela", "uf": "SP", "regiao": "IV", "tem_dado": false },
+    { "canonico": "CARAGUATATUBA", "nome": "Caraguatatuba", "uf": "SP", "regiao": "IV", "tem_dado": false }
+  ]
+}
