@@ -797,7 +797,7 @@ function Home({ onEnter, kpis }) {
         políticas públicas de saúde, educação e território. Os valores mostram o que foi
         efetivamente executado, com os dados atuais entre {kpis.ano_inicio} e {kpis.ano_fim}.
       </p>
-      <p><div style={{fontSize:13.5,opacity:0.85,marginTop:6,maxWidth:360,lineHeight:1.4}}>*Dados não consolidados, informações em coleta.</div></p>
+      <p><div style={{fontSize:13.5,opacity:0.85,marginTop:6,maxWidth:360,lineHeight:1.4}}>*Dados não consolidados, em processo de coleta.</div></p>
       <div style={{display:'flex',alignItems:'center',gap:24}}>
         <button onClick={onEnter} style={{background:C.lime,color:C.deep,border:'none',padding:'16px 30px',fontSize:15,fontWeight:800,cursor:'pointer',letterSpacing:0.3,whiteSpace:'nowrap',flexShrink:0}}>Entrar no painel →</button>
         <div style={{display:'flex',gap:24,borderLeft:'2px solid rgba(255,255,255,0.2)',paddingLeft:24,flexShrink:0}}>
